@@ -1,13 +1,16 @@
-# Pancakes
-
-The website for the Hack Club YSWS Pancakes!
+<!-- # Pancakes -->
+<p align="center" width="100%">
+    <img width="90%" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/1bcfb2729fd94f57fc03af56f8436bcbe70609fb_frame_2.svg"><br>
+</p>
+<center>The website for the Hack Club YSWS Pancakes!</center>
 
 ## Development
 
 First, clone the repository and navigate into it.
 
 ```bash
-git clone https://github.com/thesleepyniko/pancakes-ysws-website
+git clone https://github.com/hackclub/pancakes
+cd pancakes
 ```
 Next, before running, install dependencies.
 
