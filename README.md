@@ -2,7 +2,9 @@
 <p align="center" width="100%">
     <img width="90%" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/1bcfb2729fd94f57fc03af56f8436bcbe70609fb_frame_2.svg"><br>
 </p>
-<center>The website for the Hack Club YSWS Pancakes!</center>
+<p align="center">
+    The repo for the YSWS Pancakes!
+</p>
 
 ## Development
 
