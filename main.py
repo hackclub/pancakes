@@ -28,7 +28,13 @@ async def redirect_submit(club: str):
     return RedirectResponse("https://submit.hackclub.com/pancakes")
 # app.mount("/static", StaticFiles(directory="./static"), name="static")
 
+@app.get("/favicon.ico")
+async def return_favicon():
+    return FileResponse("./static/assets/icon-rounded.png")
 
+@app.get("/apple-touch-icon.ico")
+async def return_apple_touch():
+    return FileResponse("./static/assets/icon-rounded.png")
 # @app.get("/")
 # def read_root():
 #     return {"Hello": "World"}
