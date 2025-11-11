@@ -407,7 +407,7 @@ body {
     display: grid;
     gap: 1.5rem;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
     justify-items: center;
     width: 100%;
@@ -424,7 +424,10 @@ body {
     background-color: #d2a679;
     border-radius: 30px;
     padding: 30px;
-    height: 350px;
+    /* margin: 20px; */
+    height: 90%;
+    display: flex;
+    flex-direction: column;
     /* aspect-ratio: 4 / 3;
     display: flex;
     flex-direction: column;
