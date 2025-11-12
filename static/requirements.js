@@ -1,31 +1,31 @@
 const body = document.body;
 
-function removeModals() {
-    clubModal.classList.remove('active');
-    body.style.overflow = 'auto';
-}
+// function removeModals() {
+//     clubModal.classList.remove('active');
+//     body.style.overflow = 'auto';
+// }
 
-function addModalOnClick(btnId) {
-    if (btnId.startsWith("submit")) {
-        let btn = document.getElementById(btnId)
-        btn.addEventListener("click", function(event) {
-            clubModal.classList.add("active")
-            body.style.overflow = "hidden";
-        })
-    }
-}
+// function addModalOnClick(btnId) {
+//     if (btnId.startsWith("submit")) {
+//         let btn = document.getElementById(btnId)
+//         btn.addEventListener("click", function(event) {
+//             clubModal.classList.add("active")
+//             body.style.overflow = "hidden";
+//         })
+//     }
+// }
 
-function isButtonCheck(event) {
-    return event.target.nodeName === "BUTTON"
-}
+// function isButtonCheck(event) {
+//     return event.target.nodeName === "BUTTON"
+// }
 
-addModalOnClick("submit-1")
+// addModalOnClick("submit-1")
 
-window.onclick = function(event) {
-  if ((event.target == clubModal)) {
-    removeModals();
-  }
-} 
+// window.onclick = function(event) {
+//   if ((event.target == clubModal)) {
+//     removeModals();
+//   }
+// } 
 
 let acc = document.getElementsByClassName("accordion");
 let i;
