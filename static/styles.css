@@ -405,7 +405,7 @@ body {
 
 .tier-div {
     display: grid;
-    gap: 1.5rem;
+    gap: 4rem;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     align-items: stretch;
     justify-content: center;
@@ -417,6 +417,7 @@ body {
     grid-column: 1 / -1;
     justify-self: center;
     max-width: 50%;
+    margin-bottom: 5rem;
 }
 
 .tier-div > * {
